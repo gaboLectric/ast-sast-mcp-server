@@ -1,0 +1,20 @@
+{
+    "name": "ast-sast-mcp-server",
+    "version": "1.0.0",
+    "description": "MCP Server for AST-aware Static Analysis",
+    "main": "build/server.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node build/server.js",
+        "demo": "ts-node src/client_demo.ts"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.0.1",
+        "typescript": "^5.3.3",
+        "zod": "^3.22.4"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.0",
+        "ts-node": "^10.9.2"
+    }
+}
