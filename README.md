@@ -39,7 +39,7 @@ Este servidor MCP intercepta el código generado y lo analiza utilizando el comp
 
 1.  **Clonar el repositorio**:
     ```bash
-    git clone <url-del-repo>
+    git clone https://github.com/gaboLectric/ast-sast-mcp-server
     cd ast-sast-mcp-server
     ```
 
